@@ -1,0 +1,67 @@
+.auth-modal-container {
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 auto;
+    margin-top: 10%;
+    z-index: 99;
+    width: 40vw;
+    max-width: 40vw;
+    height: 60vh;
+    background: linear-gradient(to right, #DA22FF 0%, #9733EE  41%, #DA22FF  100%); 
+    border-radius: 1rem;
+    color: var(--white-color);
+}
+
+.auth-modal {
+    position: relative;
+}
+
+.text-area {
+    display: block;
+}
+
+.text-area > h4 {
+    font-family: var(--main-font);
+    margin: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.auth-modal .closeIcon {
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+
+.form-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-signup > input {
+    margin: 0.8rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.form-signup > input[type="submit"] {
+    background: linear-gradient(to right, #DA22FF 0%, #9733EE  41%, #DA22FF  100%);
+    border: 1px solid var(--white-color);
+}
+
+.overlay {
+    background: rgba(15, 15, 16, 0.664);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
