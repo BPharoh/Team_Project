@@ -5,8 +5,6 @@
     margin: 0 auto;
     margin-top: 2%;
     border-radius: 1rem;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .form-cont h2 {
@@ -119,3 +117,50 @@
     margin: 4rem 0 0 5rem;
     width: 200px;
 }
+
+/* . Alexander Inputs begin */
+
+.form-cont form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-cont form section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form-cont form input::-webkit-outer-spin-button,
+.form-cont form input::-webkit-inner-spin-button { 
+    appearance: none;
+    margin: 0;
+}
+
+.radio1 input[type="radio"] {
+    border: none;
+ }
+
+ .form-cont input[type="number"] {
+    display: block;
+    width: 65px;
+    padding: 0.9rem;
+    margin: 0 0.1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.685);
+    font-family: var(--main-font);
+}
+
+.photo-container{
+    height: 80px;
+    width: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.photo-container img{
+    width: 100%;
+} 
+
