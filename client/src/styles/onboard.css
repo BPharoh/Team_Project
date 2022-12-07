@@ -143,11 +143,24 @@
 
  .form-cont input[type="number"] {
     display: block;
-    width: 70px;
+    width: 65px;
     padding: 0.9rem;
+    margin: 0 0.1rem;
     border-radius: 0.5rem;
     border: none;
     background-color: rgba(255, 255, 255, 0.685);
     font-family: var(--main-font);
 }
+
+.photo-container{
+    height: 80px;
+    width: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.photo-container img{
+    width: 100%;
+} 
 
